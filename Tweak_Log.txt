@@ -4,7 +4,7 @@ Changed Line 3 by Bettina Erbe
 # TweakGitBlame
 Im TweakGitBlame Verzeichnis
 liegt ein Script,
-mit dem Beitraege
+Changed Line 7 by Roland Becks
 Changed Line 8 by Horst Bohne
 Changed Line 9 by Roland Becks
 Changed Line 10 by Horst Bohne
@@ -64,3 +64,4 @@ Changed Line 63 by Roland Becks
 Neue Zeile 64 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 16:36:19 CEST 2021
 Neue Zeile 65 von Bettina Erbe mit email: Bettina@donotreply.com am Sun May  2 16:38:05 CEST 2021
 Neue Zeile 66 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 16:48:15 CEST 2021
+Neue Zeile 67 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 17:27:50 CEST 2021
