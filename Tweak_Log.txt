@@ -2,10 +2,10 @@ Changed Line 1 by Horst Bohne
 Changed Line 2 by SomeoneElse
 Changed Line 3 by Bettina Erbe
 # TweakGitBlame
-Im TweakGitBlame Verzeichnis
+Changed Line 5 by Pradeep Rajah
 liegt ein Script,
 Changed Line 7 by Roland Becks
-Changed Line 8 by Horst Bohne
+Changed Line 8 by Pradeep Rajah
 Changed Line 9 by Roland Becks
 Changed Line 10 by Horst Bohne
 Changed Line 11 by Bettina Erbe
@@ -14,7 +14,7 @@ die Datei: Tweak_Log.txt
 Changed Line 14 by Horst Bohne
 -leer-
 -leer-
-Changed Line 17 by Roland Becks
+Changed Line 17 by Horst Bohne
 -leer-
 Changed Line 19 by Bettina Erbe
 -leer-
@@ -23,7 +23,7 @@ Changed Line 21 by Roland Becks
 Changed Line 23 by Horst Bohne
 Changed Line 24 by Bettina Erbe
 Changed Line 25 by Bettina Erbe
--leer-
+Changed Line 26 by Horst Bohne & Pradeep Rajah
 Changed Line 27 by Horst Bohne
 Changed Line 28 by Roland Becks
 Changed Line 29 by Roland Becks
@@ -37,7 +37,7 @@ Changed Line 36 by Horst Bohne
 Neue Zeile 37 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 09:15:37 CEST 2021
 Changed Line 38 by Horst Bohne
 Neue Zeile 39 von Horst Bohne mit email: Horst@donotreply.com am Sun May  2 11:25:44 CEST 2021
-Changed Line 40 by Bettina Erbe
+Changed Line 40 by Horst Bohne
 Changed Line 41 by Bettina Erbe
 Changed Line 42 by Roland Becks
 Changed Line 43 by Horst Bohne
@@ -65,3 +65,9 @@ Neue Zeile 64 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 16
 Neue Zeile 65 von Bettina Erbe mit email: Bettina@donotreply.com am Sun May  2 16:38:05 CEST 2021
 Neue Zeile 66 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 16:48:15 CEST 2021
 Neue Zeile 67 von Roland Becks mit email: Roland@donotreply.com am Sun May  2 17:27:50 CEST 2021
+Neue Zeile 68a von Horst Bohne mit email: Horst@donotreply.com am Sun May  2 19:27:05 CEST 2021
+Neue Zeile 69a von Horst Bohne mit email: Horst@donotreply.com am Sun May  2 19:27:12 CEST 2021
+Neue Zeile 70a von Horst Bohne mit email: Horst@donotreply.com am Sun May  2 19:27:51 CEST 2021
+Neue Zeile 68b von Pradeep Rajah mit email: Pradeep@donotreply.com am Sun May  2 19:27:42 CEST 2021
+Neue Zeile 69b von Pradeep Rajah mit email: Pradeep@donotreply.com am Sun May  2 19:27:44 CEST 2021
+Neue Zeile 70b von Pradeep Rajah mit email: Pradeep@donotreply.com am Sun May  2 19:27:59 CEST 2021
