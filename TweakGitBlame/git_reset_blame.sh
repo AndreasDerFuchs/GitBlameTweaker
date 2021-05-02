@@ -21,14 +21,26 @@ cd $(git rev-parse --show-toplevel)
 git config user.name  "Script: $0"
 git config user.email "generic.user@donotreply.com"
 
-# get initial commit id:
-INIT=$(git log --reverse --oneline | head -n 1 | cut -d" " -f1)
+# get last squash or initial commit id:
+INIT=$(git log --oneline | grep "Squash.*at.*H=" | head -n 1 | cut -d" " -f1)
+#NOTE: missing script, e.g. with awk which only allows lines with a valid hash
+if [ -z "$INIT" ]; then
+   #Just in case there was no previous Squashed commit with valid hash, use:
+   INIT=$(git log --reverse --oneline | head -n 1 | cut -d" " -f1)
+fi
 git checkout -b "$DUMMY_BRANCH" $INIT
 git merge --squash "$CURNT_BRANCH"
-git commit -m "Squashed Branch $CURNT_BRANCH at $(date)"
+
+# generate a unique commit message with hash:
+MSG="Squash '$CURNT_BRANCH' at $(date +"%y%m%d-%H%M")"
+PASSPHRASE="Use this text for a hash, to be used only with authorization by a DevOps Admin."
+HASH=$(echo "${PASSPHRASE}${MSG} H=" | md5sum | cut -c 1-6)
+MSG_X="${MSG} H=${HASH}"
+
+git commit                -m "$MSG_X"
 sleep 1
-git merge "$CURNT_BRANCH" -m "Squashed branch '$CURNT_BRANCH'"
-git commit -m "Merged Branch $CURNT_BRANCH at $(date)"
+git merge "$CURNT_BRANCH" -m "$MSG"
+git commit                -m "$MSG"
 git checkout "$CURNT_BRANCH"
 git merge "$DUMMY_BRANCH"
 # delete the dummy branch, it was only temporarily needed:
